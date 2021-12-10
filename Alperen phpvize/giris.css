@@ -1,0 +1,26 @@
+body{
+    background-color: #0a3d62;
+}
+.a{
+    width: 400px;
+    height: 20px;
+    margin-left: 500px;
+    margin-top: 150px;
+    padding: 50px;
+    background-color: #2f3542;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    text-shadow: #c7ecee;
+    font-size: 20px;
+    line-height: 10px;
+    background-image: linear-gradient(0deg,#cf5c5c,#c19b4a,#def2a0,#c6ee4a,#42eca6,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
+    background-size: 100% 1100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    0% {background-position: 0}
+    100% {background-position: 100%}
+}

@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    font-family: Fantasy;
+    font-size: 50px;
+    color: white;
+}
+form{
+    text-align: center;
+}
+.input{
+    padding: 5px;
+    margin: 25px;
+    height: 40px;
+    width: 300px;
+    background-color: #dcdde1;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    color: #2f3640;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.input:focus{
+    width: 400px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.buton{
+    background-color: #2f3542;
+    border:0 solid #094e11;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:19px;
+    padding:20px 70px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #c2c4c1;
+    border-radius: 50px;
+
+}
+.buton:hover{
+    background-image: linear-gradient(0deg,#cf5c5c,#c19b4a,#def2a0,#c6ee4a,#42eca6,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
+    background-size: 100% 1100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+    color: #096c72;
+}
+.buton:active{
+    position:relative;
+    top:5px;
+}
+@keyframes gradient {
+    0% {background-position: 0}
+    100% {background-position: 100%}
+}
+p{
+    text-indent: 30px;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    font-family: Fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+body{
+    background-color: #0a3d62;
+    }
+.geri{
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    left: 48%;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
